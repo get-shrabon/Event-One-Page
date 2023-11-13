@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top Buttons CSS */
+.top__buttons .nav-pills {
+  background: rgba(128, 128, 128, 0.144);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.top__buttons .nav-pills .nav-link {
+  color: black;
+  border-radius: 30px;
+}
+
+.top__buttons .nav-pills .active {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Custom Form Child CSS */
+input,
+select:focus {
+  box-shadow: unset !important;
+  outline: unset !important;
+}
+
+/* Custom Form Child CSS */
+.event__dateTime {
+  background-color: #949494;
+  border-radius: 30px;
+}
+
+.date {
+  background: white;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+
+.hour,
+.minute,
+.time {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50%;
+
+
+}
+
+input[type=date] {
+  font-size: 25px;
+}
+
+input[type=number] {
+
+  font-size: 25px;
+}
+
+select {
+  font-size: 25px;
+}
+#select__box{
+  background-color: #949494;
+}
+
+.instructor__location {
+  background: rgb(246, 251, 253);
+  padding: 30px 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.hello {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width:576px) {
+  .top__buttons .nav-pills{
+    border-radius: 0;
+    width: 100%;
+  }
+  .dateTime{
+    display: flex;
+    flex-direction: column;
+  }
+  .sm-w-100{
+    width: 100% !important;
+  }
+  .event__title{
+    text-align: center;
+  }
+}
